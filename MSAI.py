@@ -15,8 +15,8 @@ import os
 import requests
 
 # ===== Setup Gemini API =====
-genai.configure(api_key="AIzaSyD0QaJRhq6z1S01MI2HhQMl5Kx1svC0-jg")
-model = genai.GenerativeModel("gemini-2.5-flash")
+genai.configure(api_key="API_KEY_HERE") # Enter Your API Here
+model = genai.GenerativeModel("gemini-2.5-flash") #Enter Your Model if you want
 
 # ===== Usage History File =====
 HISTORY_FILE = Path.home() / ".msai_usage.json"
