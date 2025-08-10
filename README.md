@@ -17,6 +17,7 @@ When you generate the codes, bash and Python codes are generated and auto exec, 
 - Google API Get it Form Here [https://aistudio.google.com/apikey]
 
 ## How To Run : 
+- ```sudo bash setup.sh```
 - ``` python3 MSAI.py -a "Your Prompet" ```
 - ``` python3 MSAI.py -h ``` (For Help)
 
